@@ -32,7 +32,7 @@ public class Shirts {
         final double totalSave = (totalPriceChosenShirts + priceOfShirtsNeededMoreForDiscount) - totalDiscountPrice;
         System.out.println("totalSave = " + totalSave);
 
-        double freeShirts = totalSave / oneShirtPrice;
+        final double freeShirts = totalSave / oneShirtPrice;
         System.out.println("freeShirts = " + freeShirts);
     }
 }
