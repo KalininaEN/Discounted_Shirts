@@ -33,7 +33,9 @@ public class Shirts {
         System.out.println("totalSave = " + totalSave);
 
         final double freeShirts = totalSave / oneShirtPrice;
-        System.out.println("freeShirts = " + freeShirts);
+        final int freeShirt;
+        freeShirt = (int) Math.round(freeShirts);
+        System.out.println("freeShirt = " + freeShirt);
     }
 }
 
